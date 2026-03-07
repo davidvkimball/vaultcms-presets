@@ -1,20 +1,20 @@
 {
-  "projectRoot": "C:\\Users\\david\\Development",
-  "configFilePath": "../config.ts",
+  "projectRoot": "C:\\Users\\david\\Development\\astro-chiri-obsidian",
+  "configFilePath": "C:\\Users\\david\\Development\\astro-chiri-obsidian\\src\\config.ts",
   "contentTypes": [
     {
-      "id": "content-type-1768697093947-wkkzwzhto",
+      "id": "content-type-1772861824153-uxcltpi20",
       "name": "About",
-      "folder": "about",
+      "folder": "src/content/about",
       "fileOrganization": "file",
       "enabled": true,
       "indexFileName": "index",
       "linkBasePath": "/"
     },
     {
-      "id": "content-type-1768697093947-paebfcs96",
+      "id": "content-type-1772861824153-96hq9b1u0",
       "name": "Posts",
-      "folder": "posts",
+      "folder": "src/content/posts",
       "fileOrganization": "file",
       "enabled": true,
       "indexFileName": "index",
@@ -22,12 +22,12 @@
     }
   ],
   "frontmatterProperties": {
-    "content-type-1768697093947-wkkzwzhto": {
+    "content-type-1772861824153-uxcltpi20": {
       "titleProperty": "title",
       "hasDraftStatus": false,
       "template": "---\ntitle: \"{{title}}\"\n---\n"
     },
-    "content-type-1768697093947-paebfcs96": {
+    "content-type-1772861824153-96hq9b1u0": {
       "titleProperty": "title",
       "dateProperty": "pubDate",
       "hasDraftStatus": true,
@@ -35,7 +35,7 @@
     }
   },
   "attachmentHandlingMode": "specified-folder",
-  "attachmentFolderName": "posts/_assets",
+  "attachmentFolderName": "src/content/posts/_assets",
   "preset": "vanilla",
   "presetName": "",
   "presetsRepo": "davidvkimball/vault-cms-presets",
@@ -50,9 +50,9 @@
     "property-over-file-name",
     "seo",
     "ui-tweaker",
-    "alias-file-name-history",
+    "data-files-editor",
     "explorer-focus",
-    "iconic",
+    "file-name-history",
     "settings-search",
     "tag-wrangler",
     "zenmode"
@@ -70,7 +70,7 @@
   },
   "seoConfig": {
     "titleProperty": "title",
-    "scanDirectories": "about,posts",
+    "scanDirectories": "src/content/about,src/content/posts",
     "useFilenameAsTitle": false,
     "useFilenameAsSlug": true,
     "enableMDXSupport": false
@@ -81,7 +81,7 @@
   "imageManager": {
     "enableRenameOnPaste": true,
     "enableRenameOnDrop": true,
-    "imageNameTemplate": "{{fileName}}",
+    "imageNameTemplate": "",
     "attachmentLocation": "obsidian",
     "customAttachmentPath": "./assets",
     "defaultProvider": "unsplash",
@@ -97,9 +97,11 @@
     "customPropertyLinkFormat": "{image-url}",
     "defaultPropertyName": "banner",
     "defaultIconPropertyName": "icon",
+    "altTextProperty": "",
     "autoConvertRemoteImages": false,
     "convertOnNoteOpen": false,
     "convertOnNoteSave": false,
+    "processBackgroundChanges": true,
     "showRenameDialog": true,
     "autoRename": false,
     "dupNumberDelimiter": "-",
@@ -203,7 +205,7 @@
     "manualOpenMode": "retain",
     "replaceNewTab": false,
     "newTabMode": "only-when-empty",
-    "openWhenAllTabsClosed": true,
+    "openWhenAllTabsClosed": false,
     "useDifferentFileForNewTab": false,
     "newTabType": "File",
     "newTabValue": "",
@@ -218,6 +220,8 @@
     "mobileHomeBaseType": "File",
     "mobileHomeBaseValue": "",
     "commandOnOpen": "",
+    "waitForGitSync": false,
+    "gitSyncTimeout": 3,
     "revertView": false,
     "autoScroll": false,
     "hideReleaseNotes": false,
@@ -236,14 +240,6 @@
   },
   "runWizardOnStartup": false,
   "wizardCompleted": true,
-  "enableWYSIWYG": false,
-  "commanderConfig": {
-    "pageHeaderCommands": []
-  },
-  "imageInserter": {
-    "valueFormat": "[[attachments/{image-url}]]",
-    "insertFormat": "[[attachments/{image-url}]]"
-  },
   "enableMdxSupport": true,
-  "defaultContentTypeId": "content-type-1768697093947-paebfcs96"
+  "defaultContentTypeId": "content-type-1772861824153-96hq9b1u0"
 }

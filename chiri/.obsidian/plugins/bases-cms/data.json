@@ -14,7 +14,7 @@
   "showToolbarClear": true,
   "showToolbarDraft": true,
   "showToolbarPublish": true,
-  "showToolbarTags": true,
+  "showToolbarTags": false,
   "showToolbarSet": true,
   "showToolbarRemove": true,
   "showToolbarDelete": true,

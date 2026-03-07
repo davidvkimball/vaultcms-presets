@@ -5,8 +5,8 @@
   "openViewMode": "default",
   "openMode": "replace-all",
   "manualOpenMode": "retain",
-  "replaceNewTab": false,
-  "newTabMode": "only-when-empty",
+  "replaceNewTab": true,
+  "newTabMode": "always",
   "openWhenAllTabsClosed": true,
   "useDifferentFileForNewTab": false,
   "newTabType": "File",
@@ -22,8 +22,10 @@
   "mobileHomeBaseType": "File",
   "mobileHomeBaseValue": "",
   "commandOnOpen": "",
+  "waitForGitSync": false,
+  "gitSyncTimeout": 3,
   "revertView": false,
   "autoScroll": false,
-  "hideReleaseNotes": false,
+  "hideReleaseNotes": true,
   "stickyIconReplaceTab": false
 }

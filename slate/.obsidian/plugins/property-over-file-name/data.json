@@ -14,5 +14,7 @@
   "enableForWindowFrame": true,
   "enableForBookmarks": true,
   "enableMdxSupport": false,
+  "quickSwitcherExcludedBehavior": "deemphasize",
+  "linkSuggesterExcludedBehavior": "deemphasize",
   "enableForWindowTitle": true
 }

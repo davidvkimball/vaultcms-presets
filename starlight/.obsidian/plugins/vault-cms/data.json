@@ -1,40 +1,42 @@
 {
-  "projectRoot": "C:\\Users\\david\\Development",
-  "configFilePath": "../../astro.config.mjs",
+  "projectRoot": "C:\\Users\\david\\Development\\starlight-obsidian",
+  "configFilePath": "C:\\Users\\david\\Development\\starlight-obsidian\\astro.config.mjs",
   "contentTypes": [
     {
-      "id": "content-type-1768697407589-wymypnf2e",
+      "id": "content-type-1772863100963-dahgajlph",
       "name": "Docs",
-      "folder": "docs",
+      "folder": "src/content/docs",
       "fileOrganization": "file",
       "enabled": false,
       "indexFileName": "index"
     },
     {
-      "id": "content-type-1768697426227-d6b7tj26w",
+      "id": "content-type-1772863135041-ceqxmabov",
       "name": "Guides",
-      "folder": "docs/guides",
+      "folder": "src/content/docs/guides",
       "fileOrganization": "file",
       "enabled": true,
-      "indexFileName": "index"
+      "indexFileName": "index",
+      "linkBasePath": "/guides/"
     },
     {
-      "id": "content-type-1768697430049-8m3szy5y2",
+      "id": "content-type-1772863140701-zrn004w5j",
       "name": "Reference",
-      "folder": "docs/reference",
+      "folder": "src/content/docs/reference",
       "fileOrganization": "file",
       "enabled": true,
-      "indexFileName": "index"
+      "indexFileName": "index",
+      "linkBasePath": "/reference/"
     }
   ],
   "frontmatterProperties": {
-    "content-type-1768697426227-d6b7tj26w": {
+    "content-type-1772863135041-ceqxmabov": {
       "titleProperty": "title",
       "descriptionProperty": "description",
       "hasDraftStatus": false,
       "template": "---\ntitle: \"{{title}}\"\ndescription: \"\"\n---\n"
     },
-    "content-type-1768697430049-8m3szy5y2": {
+    "content-type-1772863140701-zrn004w5j": {
       "titleProperty": "title",
       "descriptionProperty": "description",
       "hasDraftStatus": false,
@@ -56,9 +58,9 @@
     "property-over-file-name",
     "seo",
     "ui-tweaker",
-    "alias-file-name-history",
+    "data-files-editor",
     "explorer-focus",
-    "iconic",
+    "file-name-history",
     "settings-search",
     "tag-wrangler",
     "zenmode"
@@ -76,7 +78,7 @@
   },
   "seoConfig": {
     "titleProperty": "title",
-    "scanDirectories": "docs/guides,docs/reference",
+    "scanDirectories": "src/content/docs/guides,src/content/docs/reference",
     "useFilenameAsTitle": false,
     "useFilenameAsSlug": true,
     "enableMDXSupport": false
@@ -87,7 +89,7 @@
   "imageManager": {
     "enableRenameOnPaste": true,
     "enableRenameOnDrop": true,
-    "imageNameTemplate": "{{fileName}}",
+    "imageNameTemplate": "",
     "attachmentLocation": "obsidian",
     "customAttachmentPath": "./assets",
     "defaultProvider": "unsplash",
@@ -103,9 +105,11 @@
     "customPropertyLinkFormat": "{image-url}",
     "defaultPropertyName": "banner",
     "defaultIconPropertyName": "icon",
+    "altTextProperty": "",
     "autoConvertRemoteImages": false,
     "convertOnNoteOpen": false,
     "convertOnNoteSave": false,
+    "processBackgroundChanges": true,
     "showRenameDialog": true,
     "autoRename": false,
     "dupNumberDelimiter": "-",
@@ -209,7 +213,7 @@
     "manualOpenMode": "retain",
     "replaceNewTab": false,
     "newTabMode": "only-when-empty",
-    "openWhenAllTabsClosed": true,
+    "openWhenAllTabsClosed": false,
     "useDifferentFileForNewTab": false,
     "newTabType": "File",
     "newTabValue": "",
@@ -224,6 +228,8 @@
     "mobileHomeBaseType": "File",
     "mobileHomeBaseValue": "",
     "commandOnOpen": "",
+    "waitForGitSync": false,
+    "gitSyncTimeout": 3,
     "revertView": false,
     "autoScroll": false,
     "hideReleaseNotes": false,
@@ -242,14 +248,5 @@
   },
   "runWizardOnStartup": false,
   "wizardCompleted": true,
-  "enableWYSIWYG": false,
-  "commanderConfig": {
-    "pageHeaderCommands": []
-  },
-  "imageInserter": {
-    "valueFormat": "[[attachments/{image-url}]]",
-    "insertFormat": "[[attachments/{image-url}]]"
-  },
-  "enableMdxSupport": true,
-  "defaultContentTypeId": "content-type-1768697426227-d6b7tj26w"
+  "enableMdxSupport": true
 }

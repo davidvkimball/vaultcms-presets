@@ -12,7 +12,7 @@
   "tabBarHideWhenSingle": false,
   "enableWindowDragging": true,
   "newNoteButton": false,
-  "newFolderButton": true,
+  "newFolderButton": false,
   "sortOrderButton": false,
   "autoRevealButton": false,
   "collapseAllButton": false,
@@ -34,7 +34,7 @@
   "addPropertyButton": true,
   "deemphasizeProperties": true,
   "instructions": true,
-  "mobileChevronsIcon": true,
+  "mobileChevronsIcon": false,
   "navigateBackButton": false,
   "navigateForwardButton": false,
   "quickSwitcherButton": false,
@@ -42,15 +42,16 @@
   "openTabButton": false,
   "ribbonMenuButton": false,
   "swapMobileNewTabIcon": false,
-  "hideMobileTitle": true,
+  "hideMobileTitle": false,
   "hideMobileSyncIcon": true,
+  "hideStatusBarMobile": false,
   "navigateButtonPosition": "1",
   "navigationButtonPosition": "2",
   "quickSwitcherPosition": "3",
   "newTabPosition": "4",
   "openTabsPosition": "5",
   "ribbonMenuPosition": "6",
-  "vaultSwitcherBackgroundTransparency": 0,
+  "vaultSwitcherBackgroundTransparency": 1,
   "helpButtonReplacement": {
     "enabled": false,
     "commandId": "",
@@ -61,13 +62,23 @@
     "commandId": "",
     "iconId": "wrench"
   },
-  "tabBarCommands": [],
+  "tabBarCommands": [
+    {
+      "id": "editing-toolbar:hide-show-menu",
+      "icon": "lucide-panel-top-open",
+      "name": "Toggle editing toolbar",
+      "displayName": "Editing Toolbar: Hide/Show ",
+      "mode": "desktop",
+      "toggleIcon": "lucide-panel-top-close",
+      "showOnFileTypes": "md,mdx"
+    }
+  ],
   "statusBarItems": [
     {
       "id": "plugin-editor-status;1",
-      "name": "Live Preview",
+      "name": "plugin-editor-status",
       "type": "existing",
-      "hidden": true,
+      "hidden": false,
       "mdOnly": false,
       "sticky": "left"
     },
@@ -97,13 +108,25 @@
       "id": "plugin-obsidian-git;1",
       "name": "Git is ready",
       "type": "existing",
-      "hidden": true,
+      "hidden": false,
       "mdOnly": false,
       "sticky": "right"
     },
     {
+      "id": "custom-obsidian-git:push",
+      "name": "Git: Commit-and-sync",
+      "displayName": "Git: Commit-and-sync",
+      "icon": "lucide-arrow-up-circle",
+      "type": "custom",
+      "hidden": false,
+      "mdOnly": false,
+      "commandId": "obsidian-git:push",
+      "mode": "any",
+      "sticky": "right"
+    },
+    {
       "id": "plugin-obsidian-git-status;1",
-      "name": "Checking repository status...",
+      "name": "Git: pull: everything is up-to-date",
       "type": "existing",
       "hidden": false,
       "mdOnly": false
@@ -123,7 +146,7 @@
       "name": "New folder",
       "ariaLabel": "New folder",
       "type": "native",
-      "hidden": true
+      "hidden": false
     },
     {
       "id": "native-sortOrder",
@@ -158,10 +181,78 @@
   "nativeExplorerButtonIcons": {},
   "propertyIconItems": [
     {
+      "id": "title",
+      "icon": "lucide-type"
+    },
+    {
+      "id": "targetkeyword",
+      "icon": "lucide-search-check"
+    },
+    {
+      "id": "status",
+      "icon": "lucide-alert-octagon"
+    },
+    {
+      "id": "description",
+      "icon": "lucide-text-initial"
+    },
+    {
+      "id": "featured",
+      "icon": "lucide-star"
+    },
+    {
+      "id": "hidecoverimage",
+      "icon": "lucide-image-off"
+    },
+    {
+      "id": "hidetoc",
+      "icon": "lucide-equal-not"
+    },
+    {
+      "id": "image",
+      "icon": "lucide-image"
+    },
+    {
+      "id": "imagealt",
+      "icon": "lucide-image-plus"
+    },
+    {
+      "id": "imageog",
+      "icon": "lucide-images"
+    },
+    {
+      "id": "lastmodified",
+      "icon": "lucide-history"
+    },
+    {
+      "id": "noindex",
+      "icon": "lucide-list-x"
+    },
+    {
+      "id": "projecturl",
+      "icon": "lucide-mouse-pointer-square-dashed"
+    },
+    {
+      "id": "repositoryurl",
+      "icon": "lucide-github"
+    },
+    {
+      "id": "version",
+      "icon": "lucide-tag"
+    },
+    {
+      "id": "category",
+      "icon": "lucide-list"
+    },
+    {
       "id": "cssclasses",
       "icon": "lucide-palette"
+    },
+    {
+      "id": "categories",
+      "icon": "lucide-list-x"
     }
   ],
   "minimalPropertyIcons": false,
-  "showPropertyMenuActions": false
+  "showPropertyMenuActions": true
 }

@@ -1,5 +1,6 @@
 {
   "pluginList": [
+    "davidvkimball/obsidian-property-over-file-name",
     "davidvkimball/obsidian-file-name-history",
     "davidvkimball/obsidian-explorer-focus",
     "davidvkimball/obsidian-ui-tweaker",
@@ -9,11 +10,14 @@
     "davidvkimball/obsidian-bases-cms",
     "davidvkimball/obsidian-oxygen-settings",
     "davidvkimball/obsidian-seo",
-    "davidvkimball/obsidian-property-over-filename",
     "davidvkimball/obsidian-disable-tabs",
     "davidvkimball/obsidian-astro-composer"
   ],
   "pluginSubListFrozenVersion": [
+    {
+      "repo": "davidvkimball/obsidian-property-over-file-name",
+      "version": "latest"
+    },
     {
       "repo": "davidvkimball/obsidian-file-name-history",
       "version": "latest"
@@ -51,16 +55,12 @@
       "version": "latest"
     },
     {
-      "repo": "davidvkimball/obsidian-property-over-filename",
-      "version": "latest"
-    },
-    {
       "repo": "davidvkimball/obsidian-disable-tabs",
       "version": "latest"
     },
     {
       "repo": "davidvkimball/obsidian-astro-composer",
-      "version": ""
+      "version": "latest"
     }
   ],
   "themesList": [],
@@ -72,7 +72,7 @@
   "loggingVerboseEnabled": false,
   "debuggingMode": false,
   "notificationsEnabled": true,
-  "globalTokenName": "brat-github-token",
+  "globalTokenName": "",
   "personalAccessToken": "",
   "selectLatestPluginVersionByDefault": false,
   "allowIncompatiblePlugins": false

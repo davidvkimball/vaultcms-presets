@@ -1,30 +1,30 @@
 {
-  "defaultTemplate": "---\ntitle: \"{{title}}\"\ndescription: \"\"\ntags: []\npubDate: {{date}}\n---\n",
+  "defaultTemplate": "---\ntitle: \"{{title}}\"\ndate: {{date}}\ndescription: \"\"\ntags: []\nimage: \"\"\nimageAlt: \"\"\nimageOG: false\nhideCoverImage: false\nhideTOC: false\ntargetKeyword: \"\"\ndraft: true\n---",
   "autoInsertProperties": true,
   "dateFormat": "YYYY-MM-DD",
   "enableCopyHeadingLink": true,
   "copyHeadingLinkFormat": "astro",
   "addTrailingSlashToLinks": true,
   "enableOpenTerminalCommand": true,
-  "terminalProjectRootPath": "../../",
+  "terminalProjectRootPath": "",
   "terminalApplicationName": "",
   "enableTerminalDebugLogging": false,
   "enableTerminalRibbonIcon": true,
   "enableOpenConfigFileCommand": true,
-  "configFilePath": "../../slate.config.ts",
-  "enableConfigRibbonIcon": true,
+  "configFilePath": "astro.config.mjs",
+  "enableConfigRibbonIcon": false,
   "contentTypes": [
     {
-      "id": "content-type-1768696374549-cqke1tque",
+      "id": "content-type-1772862581992-2si3b9924",
       "name": "Posts",
-      "folder": "post",
+      "folder": "src/content/post",
       "linkBasePath": "/blog/",
-      "template": "---\ntitle: \"{{title}}\"\ndescription: \"\"\ntags: []\npubDate: {{date}}\n---\n",
+      "template": "---\ntitle: \"{{title}}\"\npubDate: {{date}}\ndescription: \"\"\ntags: []\n---\n",
       "enabled": true,
       "creationMode": "file",
       "indexFileName": "index",
       "ignoreSubfolders": false,
-      "enableUnderscorePrefix": false
+      "enableUnderscorePrefix": true
     }
   ],
   "migrationCompleted": true,
@@ -34,7 +34,7 @@
     "iconId": "rocket"
   },
   "showMdxFilesInExplorer": false,
-  "processBackgroundFileChanges": false,
+  "processBackgroundFileChanges": true,
   "syncDraftDate": false,
   "draftProperty": "",
   "draftLogic": "true-is-draft",

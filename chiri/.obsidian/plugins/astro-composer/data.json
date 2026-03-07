@@ -1,31 +1,30 @@
 {
-  "defaultTemplate": "---\ntitle: \"{{title}}\"\ndate: {{date}}\ntags: []\n---\n",
+  "defaultTemplate": "---\ntitle: \"{{title}}\"\npubDate: {{date}}\n---\n",
   "autoInsertProperties": true,
   "dateFormat": "YYYY-MM-DD",
   "enableCopyHeadingLink": true,
   "copyHeadingLinkFormat": "astro",
   "addTrailingSlashToLinks": true,
   "enableOpenTerminalCommand": true,
-  "terminalProjectRootPath": "../../",
+  "terminalProjectRootPath": "",
   "terminalApplicationName": "",
   "enableTerminalDebugLogging": false,
-  "enableTerminalRibbonIcon": false,
+  "enableTerminalRibbonIcon": true,
   "enableOpenConfigFileCommand": true,
-  "configFilePath": "../config.ts",
+  "configFilePath": "src/config.ts",
   "enableConfigRibbonIcon": false,
   "contentTypes": [
     {
-      "id": "content-1770538945417",
+      "id": "content-type-1772861824153-96hq9b1u0",
       "name": "Posts",
-      "folder": "posts",
+      "folder": "src/content/posts",
       "linkBasePath": "/",
-      "template": "---\ntitle: \"{{title}}\"\ndate: {{date}}\n---\n",
+      "template": "---\ntitle: \"{{title}}\"\npubDate: {{date}}\n---\n",
       "enabled": true,
       "creationMode": "file",
-      "indexFileName": "",
+      "indexFileName": "index",
       "ignoreSubfolders": false,
-      "enableUnderscorePrefix": true,
-      "useMdxExtension": false
+      "enableUnderscorePrefix": true
     }
   ],
   "migrationCompleted": true,
@@ -40,6 +39,7 @@
   "draftProperty": "",
   "draftLogic": "true-is-draft",
   "publishDateField": "",
+  "renameOnTitleClick": false,
   "updateModifiedDate": false,
   "modifiedDateField": ""
 }

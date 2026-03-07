@@ -1,11 +1,11 @@
 {
-  "projectRoot": "C:\\Users\\david\\Development",
-  "configFilePath": "../../slate.config.ts",
+  "projectRoot": "C:\\Users\\david\\Development\\slate-blog-obsidian",
+  "configFilePath": "C:\\Users\\david\\Development\\slate-blog-obsidian\\astro.config.mjs",
   "contentTypes": [
     {
-      "id": "content-type-1768696374549-cqke1tque",
+      "id": "content-type-1772862581992-2si3b9924",
       "name": "Posts",
-      "folder": "post",
+      "folder": "src/content/post",
       "fileOrganization": "file",
       "enabled": true,
       "indexFileName": "index",
@@ -13,17 +13,18 @@
     }
   ],
   "frontmatterProperties": {
-    "content-type-1768696374549-cqke1tque": {
+    "content-type-1772862581992-2si3b9924": {
       "titleProperty": "title",
       "dateProperty": "pubDate",
       "descriptionProperty": "description",
       "tagsProperty": "tags",
-      "hasDraftStatus": false,
-      "template": "---\ntitle: \"{{title}}\"\ndescription: \"\"\ntags: []\npubDate: {{date}}\n---\n"
+      "draftLogic": "true-draft",
+      "hasDraftStatus": true,
+      "template": "---\ntitle: \"{{title}}\"\npubDate: {{date}}\ndescription: \"\"\ntags: []\n---\n"
     }
   },
   "attachmentHandlingMode": "specified-folder",
-  "attachmentFolderName": "post/attachments",
+  "attachmentFolderName": "src/content/post/attachments",
   "preset": "vanilla",
   "presetName": "",
   "presetsRepo": "davidvkimball/vault-cms-presets",
@@ -38,9 +39,9 @@
     "property-over-file-name",
     "seo",
     "ui-tweaker",
-    "alias-file-name-history",
+    "data-files-editor",
     "explorer-focus",
-    "iconic",
+    "file-name-history",
     "settings-search",
     "tag-wrangler",
     "zenmode"
@@ -58,7 +59,7 @@
   },
   "seoConfig": {
     "titleProperty": "title",
-    "scanDirectories": "post",
+    "scanDirectories": "src/content/post",
     "useFilenameAsTitle": false,
     "useFilenameAsSlug": true,
     "enableMDXSupport": false
@@ -69,7 +70,7 @@
   "imageManager": {
     "enableRenameOnPaste": true,
     "enableRenameOnDrop": true,
-    "imageNameTemplate": "{{fileName}}",
+    "imageNameTemplate": "",
     "attachmentLocation": "obsidian",
     "customAttachmentPath": "./assets",
     "defaultProvider": "unsplash",
@@ -85,9 +86,11 @@
     "customPropertyLinkFormat": "{image-url}",
     "defaultPropertyName": "banner",
     "defaultIconPropertyName": "icon",
+    "altTextProperty": "",
     "autoConvertRemoteImages": false,
     "convertOnNoteOpen": false,
     "convertOnNoteSave": false,
+    "processBackgroundChanges": true,
     "showRenameDialog": true,
     "autoRename": false,
     "dupNumberDelimiter": "-",
@@ -191,7 +194,7 @@
     "manualOpenMode": "retain",
     "replaceNewTab": false,
     "newTabMode": "only-when-empty",
-    "openWhenAllTabsClosed": true,
+    "openWhenAllTabsClosed": false,
     "useDifferentFileForNewTab": false,
     "newTabType": "File",
     "newTabValue": "",
@@ -206,6 +209,8 @@
     "mobileHomeBaseType": "File",
     "mobileHomeBaseValue": "",
     "commandOnOpen": "",
+    "waitForGitSync": false,
+    "gitSyncTimeout": 3,
     "revertView": false,
     "autoScroll": false,
     "hideReleaseNotes": false,
@@ -224,14 +229,5 @@
   },
   "runWizardOnStartup": false,
   "wizardCompleted": true,
-  "enableWYSIWYG": true,
-  "commanderConfig": {
-    "pageHeaderCommands": []
-  },
-  "imageInserter": {
-    "valueFormat": "[[attachments/{image-url}]]",
-    "insertFormat": "[[attachments/{image-url}]]"
-  },
-  "enableMdxSupport": false,
-  "defaultContentTypeId": "content-type-1768696374549-cqke1tque"
+  "enableMdxSupport": false
 }
