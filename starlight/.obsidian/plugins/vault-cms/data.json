@@ -1,6 +1,6 @@
 {
-  "projectRoot": "C:\\Users\\david\\Development\\starlight-obsidian",
-  "configFilePath": "C:\\Users\\david\\Development\\starlight-obsidian\\astro.config.mjs",
+  "projectRoot": "../../starlight-obsidian",
+  "configFilePath": "../../starlight-obsidian/astro.config.mjs",
   "contentTypes": [
     {
       "id": "content-type-1772863100963-dahgajlph",

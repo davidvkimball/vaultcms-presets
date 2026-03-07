@@ -1,6 +1,6 @@
 {
-  "projectRoot": "C:\\Users\\david\\Development\\astro-chiri-obsidian",
-  "configFilePath": "C:\\Users\\david\\Development\\astro-chiri-obsidian\\src\\config.ts",
+  "projectRoot": "../../astro-chiri-obsidian",
+  "configFilePath": "../../astro-chiri-obsidian/src/config.ts",
   "contentTypes": [
     {
       "id": "content-type-1772861824153-uxcltpi20",

@@ -1,6 +1,6 @@
 {
-  "projectRoot": "C:\\Users\\david\\Development\\slate-blog-obsidian",
-  "configFilePath": "C:\\Users\\david\\Development\\slate-blog-obsidian\\astro.config.mjs",
+  "projectRoot": "../../slate-blog-obsidian",
+  "configFilePath": "../../slate-blog-obsidian/astro.config.mjs",
   "contentTypes": [
     {
       "id": "content-type-1772862581992-2si3b9924",
