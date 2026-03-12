@@ -1,6 +1,6 @@
 {
-  "projectRoot": "../../slate-blog-obsidian",
-  "configFilePath": "../../slate-blog-obsidian/astro.config.mjs",
+  "projectRoot": ".",
+  "configFilePath": "astro.config.mjs",
   "contentTypes": [
     {
       "id": "content-type-1772862581992-2si3b9924",
@@ -27,7 +27,7 @@
   "attachmentFolderName": "src/content/post/attachments",
   "preset": "vanilla",
   "presetName": "",
-  "presetsRepo": "davidvkimball/vault-cms-presets",
+  "presetsRepo": "davidvkimball/vaultcms-presets",
   "enableEditingToolbar": false,
   "enableExtendedFileTypes": false,
   "enabledPlugins": [

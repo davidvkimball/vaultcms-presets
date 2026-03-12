@@ -1,6 +1,6 @@
 {
-  "projectRoot": "../../starlight-obsidian",
-  "configFilePath": "../../starlight-obsidian/astro.config.mjs",
+  "projectRoot": ".",
+  "configFilePath": "astro.config.mjs",
   "contentTypes": [
     {
       "id": "content-type-1772863100963-dahgajlph",
@@ -46,7 +46,7 @@
   "attachmentHandlingMode": "subfolder",
   "preset": "vanilla",
   "presetName": "",
-  "presetsRepo": "davidvkimball/vault-cms-presets",
+  "presetsRepo": "davidvkimball/vaultcms-presets",
   "enableEditingToolbar": false,
   "enableExtendedFileTypes": false,
   "enabledPlugins": [

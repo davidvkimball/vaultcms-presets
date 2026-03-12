@@ -2,8 +2,12 @@
   "showInlineTitle": false,
   "promptDelete": true,
   "showIndentGuide": false,
-  "attachmentFolderPath": "src/content/attachments",
-  "userIgnoreFilters": null,
+  "attachmentFolderPath": "./attachments",
+  "userIgnoreFilters": [
+    "node_modules",
+    "dist",
+    "public"
+  ],
   "focusNewTab": false,
   "mobilePullAction": "command-palette:open",
   "trashOption": "system",

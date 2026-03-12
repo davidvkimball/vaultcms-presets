@@ -3,7 +3,11 @@
   "promptDelete": true,
   "showIndentGuide": false,
   "attachmentFolderPath": "src/content/posts/_assets",
-  "userIgnoreFilters": null,
+  "userIgnoreFilters": [
+    "public",
+    "scripts",
+    "node_modules"
+  ],
   "focusNewTab": false,
   "mobilePullAction": "command-palette:open",
   "trashOption": "system",

@@ -1,6 +1,6 @@
 {
-  "projectRoot": "../../astro-chiri-obsidian",
-  "configFilePath": "../../astro-chiri-obsidian/src/config.ts",
+  "projectRoot": ".",
+  "configFilePath": "src/config.ts",
   "contentTypes": [
     {
       "id": "content-type-1772861824153-uxcltpi20",
@@ -38,7 +38,7 @@
   "attachmentFolderName": "src/content/posts/_assets",
   "preset": "vanilla",
   "presetName": "",
-  "presetsRepo": "davidvkimball/vault-cms-presets",
+  "presetsRepo": "davidvkimball/vaultcms-presets",
   "enableEditingToolbar": false,
   "enableExtendedFileTypes": false,
   "enabledPlugins": [
