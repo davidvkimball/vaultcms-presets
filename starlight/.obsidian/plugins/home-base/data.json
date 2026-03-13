@@ -1,6 +1,6 @@
 {
   "homeBaseType": "File",
-  "homeBaseValue": "bases/Home.base",
+  "homeBaseValue": "_bases/Home.base",
   "openOnStartup": true,
   "openViewMode": "default",
   "openMode": "replace-all",

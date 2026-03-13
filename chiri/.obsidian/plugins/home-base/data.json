@@ -1,13 +1,13 @@
 {
   "homeBaseType": "File",
-  "homeBaseValue": "bases/Home.base",
+  "homeBaseValue": "_bases/Home.base",
   "openOnStartup": true,
   "openViewMode": "default",
   "openMode": "replace-all",
   "manualOpenMode": "retain",
-  "replaceNewTab": true,
-  "newTabMode": "always",
-  "openWhenAllTabsClosed": true,
+  "replaceNewTab": false,
+  "newTabMode": "only-when-empty",
+  "openWhenAllTabsClosed": false,
   "useDifferentFileForNewTab": false,
   "newTabType": "File",
   "newTabValue": "",
@@ -26,6 +26,6 @@
   "gitSyncTimeout": 3,
   "revertView": false,
   "autoScroll": false,
-  "hideReleaseNotes": true,
+  "hideReleaseNotes": false,
   "stickyIconReplaceTab": false
 }

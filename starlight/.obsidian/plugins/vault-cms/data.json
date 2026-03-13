@@ -1,42 +1,42 @@
 {
-  "projectRoot": ".",
-  "configFilePath": "astro.config.mjs",
+  "projectRoot": "../../",
+  "configFilePath": "../../astro.config.mjs",
   "contentTypes": [
     {
-      "id": "content-type-1772863100963-dahgajlph",
+      "id": "content-type-1773432670507-xob1karx2",
       "name": "Docs",
-      "folder": "src/content/docs",
+      "folder": "docs",
       "fileOrganization": "file",
       "enabled": false,
       "indexFileName": "index"
     },
     {
-      "id": "content-type-1772863135041-ceqxmabov",
+      "id": "content-type-1773432715446-aa4ni0ahu",
       "name": "Guides",
-      "folder": "src/content/docs/guides",
+      "folder": "docs/guides",
       "fileOrganization": "file",
       "enabled": true,
       "indexFileName": "index",
-      "linkBasePath": "/guides/"
+      "linkBasePath": "/docs/guides/"
     },
     {
-      "id": "content-type-1772863140701-zrn004w5j",
+      "id": "content-type-1773432726664-0vqrjh6zp",
       "name": "Reference",
-      "folder": "src/content/docs/reference",
+      "folder": "docs/reference",
       "fileOrganization": "file",
       "enabled": true,
       "indexFileName": "index",
-      "linkBasePath": "/reference/"
+      "linkBasePath": "/docs/reference/"
     }
   ],
   "frontmatterProperties": {
-    "content-type-1772863135041-ceqxmabov": {
+    "content-type-1773432715446-aa4ni0ahu": {
       "titleProperty": "title",
       "descriptionProperty": "description",
       "hasDraftStatus": false,
       "template": "---\ntitle: \"{{title}}\"\ndescription: \"\"\n---\n"
     },
-    "content-type-1772863140701-zrn004w5j": {
+    "content-type-1773432726664-0vqrjh6zp": {
       "titleProperty": "title",
       "descriptionProperty": "description",
       "hasDraftStatus": false,
@@ -78,7 +78,7 @@
   },
   "seoConfig": {
     "titleProperty": "title",
-    "scanDirectories": "src/content/docs/guides,src/content/docs/reference",
+    "scanDirectories": "docs/guides,docs/reference",
     "useFilenameAsTitle": false,
     "useFilenameAsSlug": true,
     "enableMDXSupport": false
@@ -206,7 +206,7 @@
   },
   "homeBase": {
     "homeBaseType": "File",
-    "homeBaseValue": "bases/Home.base",
+    "homeBaseValue": "_bases/Home.base",
     "openOnStartup": true,
     "openViewMode": "default",
     "openMode": "replace-all",
@@ -237,14 +237,14 @@
   },
   "explorerFocus": {},
   "ignoreConfig": {
-    "gitIgnoreConfigured": true,
-    "viteIgnoreConfigured": true
+    "gitIgnoreConfigured": false,
+    "viteIgnoreConfigured": false
   },
   "gitConfig": {
     "enabled": false,
-    "isPrivate": true,
+    "isPrivate": false,
     "branchName": "main",
-    "autoConfigureObsidianGit": true
+    "autoConfigureObsidianGit": false
   },
   "runWizardOnStartup": false,
   "wizardCompleted": true,

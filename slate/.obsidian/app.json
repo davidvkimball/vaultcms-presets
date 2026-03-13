@@ -2,14 +2,8 @@
   "showInlineTitle": false,
   "promptDelete": true,
   "showIndentGuide": false,
-  "attachmentFolderPath": "src/content/attachments",
-  "userIgnoreFilters": [
-    "node_modules",
-    "Obsidian Template",
-    "public",
-    "scripts",
-    "plugins"
-  ],
+  "attachmentFolderPath": "./attachments",
+  "userIgnoreFilters": null,
   "focusNewTab": false,
   "mobilePullAction": "command-palette:open",
   "trashOption": "system",
@@ -41,7 +35,7 @@
     "editor:configure-toolbar"
   ],
   "newFileLocation": "root",
-  "newFileFolderPath": "src/content",
+  "newFileFolderPath": "",
   "newLinkFormat": "relative",
   "mobileQuickRibbonItem": "",
   "vimMode": false,

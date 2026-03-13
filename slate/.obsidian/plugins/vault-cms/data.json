@@ -1,11 +1,11 @@
 {
-  "projectRoot": ".",
-  "configFilePath": "astro.config.mjs",
+  "projectRoot": "../../",
+  "configFilePath": "../../astro.config.mjs",
   "contentTypes": [
     {
-      "id": "content-type-1772862581992-2si3b9924",
+      "id": "content-type-1773432108940-dman1akpr",
       "name": "Posts",
-      "folder": "src/content/post",
+      "folder": "post",
       "fileOrganization": "file",
       "enabled": true,
       "indexFileName": "index",
@@ -13,18 +13,17 @@
     }
   ],
   "frontmatterProperties": {
-    "content-type-1772862581992-2si3b9924": {
+    "content-type-1773432108940-dman1akpr": {
       "titleProperty": "title",
       "dateProperty": "pubDate",
       "descriptionProperty": "description",
       "tagsProperty": "tags",
       "draftLogic": "true-draft",
       "hasDraftStatus": true,
-      "template": "---\ntitle: \"{{title}}\"\npubDate: {{date}}\ndescription: \"\"\ntags: []\n---\n"
+      "template": "---\ntitle: \"{{title}}\"\ndescription: \"\"\ntags: []\npubDate: {{date}}\n---\n"
     }
   },
-  "attachmentHandlingMode": "specified-folder",
-  "attachmentFolderName": "src/content/post/attachments",
+  "attachmentHandlingMode": "subfolder",
   "preset": "vanilla",
   "presetName": "",
   "presetsRepo": "davidvkimball/vaultcms-presets",
@@ -59,7 +58,7 @@
   },
   "seoConfig": {
     "titleProperty": "title",
-    "scanDirectories": "src/content/post",
+    "scanDirectories": "post",
     "useFilenameAsTitle": false,
     "useFilenameAsSlug": true,
     "enableMDXSupport": false
@@ -187,7 +186,7 @@
   },
   "homeBase": {
     "homeBaseType": "File",
-    "homeBaseValue": "bases/Home.base",
+    "homeBaseValue": "_bases/Home.base",
     "openOnStartup": true,
     "openViewMode": "default",
     "openMode": "replace-all",
@@ -218,14 +217,14 @@
   },
   "explorerFocus": {},
   "ignoreConfig": {
-    "gitIgnoreConfigured": true,
-    "viteIgnoreConfigured": true
+    "gitIgnoreConfigured": false,
+    "viteIgnoreConfigured": false
   },
   "gitConfig": {
     "enabled": false,
-    "isPrivate": true,
+    "isPrivate": false,
     "branchName": "main",
-    "autoConfigureObsidianGit": true
+    "autoConfigureObsidianGit": false
   },
   "runWizardOnStartup": false,
   "wizardCompleted": true,

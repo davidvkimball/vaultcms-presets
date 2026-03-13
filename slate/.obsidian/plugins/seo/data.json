@@ -1,5 +1,5 @@
 {
-  "scanDirectories": "src/content/post",
+  "scanDirectories": "post",
   "ignoreUnderscoreFiles": false,
   "enableMDXSupport": false,
   "keywordProperty": "",

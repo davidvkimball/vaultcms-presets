@@ -1,20 +1,20 @@
 {
-  "projectRoot": ".",
-  "configFilePath": "src/config.ts",
+  "projectRoot": "../../",
+  "configFilePath": "../config.ts",
   "contentTypes": [
     {
-      "id": "content-type-1772861824153-uxcltpi20",
+      "id": "content-type-1773431208519-nqu3222gc",
       "name": "About",
-      "folder": "src/content/about",
+      "folder": "about",
       "fileOrganization": "file",
       "enabled": true,
       "indexFileName": "index",
       "linkBasePath": "/"
     },
     {
-      "id": "content-type-1772861824153-96hq9b1u0",
+      "id": "content-type-1773431208519-4qz4popde",
       "name": "Posts",
-      "folder": "src/content/posts",
+      "folder": "posts",
       "fileOrganization": "file",
       "enabled": true,
       "indexFileName": "index",
@@ -22,12 +22,12 @@
     }
   ],
   "frontmatterProperties": {
-    "content-type-1772861824153-uxcltpi20": {
+    "content-type-1773431208519-nqu3222gc": {
       "titleProperty": "title",
       "hasDraftStatus": false,
       "template": "---\ntitle: \"{{title}}\"\n---\n"
     },
-    "content-type-1772861824153-96hq9b1u0": {
+    "content-type-1773431208519-4qz4popde": {
       "titleProperty": "title",
       "dateProperty": "pubDate",
       "hasDraftStatus": true,
@@ -35,7 +35,7 @@
     }
   },
   "attachmentHandlingMode": "specified-folder",
-  "attachmentFolderName": "src/content/posts/_assets",
+  "attachmentFolderName": "posts/_assets",
   "preset": "vanilla",
   "presetName": "",
   "presetsRepo": "davidvkimball/vaultcms-presets",
@@ -70,7 +70,7 @@
   },
   "seoConfig": {
     "titleProperty": "title",
-    "scanDirectories": "src/content/about,src/content/posts",
+    "scanDirectories": "posts",
     "useFilenameAsTitle": false,
     "useFilenameAsSlug": true,
     "enableMDXSupport": false
@@ -198,7 +198,7 @@
   },
   "homeBase": {
     "homeBaseType": "File",
-    "homeBaseValue": "bases/Home.base",
+    "homeBaseValue": "_bases/Home.base",
     "openOnStartup": true,
     "openViewMode": "default",
     "openMode": "replace-all",
@@ -229,17 +229,17 @@
   },
   "explorerFocus": {},
   "ignoreConfig": {
-    "gitIgnoreConfigured": true,
-    "viteIgnoreConfigured": true
+    "gitIgnoreConfigured": false,
+    "viteIgnoreConfigured": false
   },
   "gitConfig": {
     "enabled": false,
-    "isPrivate": true,
+    "isPrivate": false,
     "branchName": "main",
-    "autoConfigureObsidianGit": true
+    "autoConfigureObsidianGit": false
   },
   "runWizardOnStartup": false,
   "wizardCompleted": true,
   "enableMdxSupport": true,
-  "defaultContentTypeId": "content-type-1772861824153-96hq9b1u0"
+  "defaultContentTypeId": "content-type-1773431208519-4qz4popde"
 }

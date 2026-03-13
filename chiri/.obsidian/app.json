@@ -2,12 +2,8 @@
   "showInlineTitle": false,
   "promptDelete": true,
   "showIndentGuide": false,
-  "attachmentFolderPath": "src/content/posts/_assets",
-  "userIgnoreFilters": [
-    "public",
-    "scripts",
-    "node_modules"
-  ],
+  "attachmentFolderPath": "posts/_assets",
+  "userIgnoreFilters": null,
   "focusNewTab": false,
   "mobilePullAction": "command-palette:open",
   "trashOption": "system",
@@ -39,7 +35,7 @@
     "editor:configure-toolbar"
   ],
   "newFileLocation": "folder",
-  "newFileFolderPath": "src/content/posts",
+  "newFileFolderPath": "posts",
   "newLinkFormat": "relative",
   "mobileQuickRibbonItem": "",
   "vimMode": false,

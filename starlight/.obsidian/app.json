@@ -4,9 +4,8 @@
   "showIndentGuide": false,
   "attachmentFolderPath": "./attachments",
   "userIgnoreFilters": [
-    "node_modules",
     "dist",
-    "public"
+    "node_modules/"
   ],
   "focusNewTab": false,
   "mobilePullAction": "command-palette:open",
@@ -39,7 +38,7 @@
     "editor:configure-toolbar"
   ],
   "newFileLocation": "root",
-  "newFileFolderPath": "src/content",
+  "newFileFolderPath": "",
   "newLinkFormat": "relative",
   "mobileQuickRibbonItem": "",
   "vimMode": false,

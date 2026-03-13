@@ -1,5 +1,5 @@
 {
-  "scanDirectories": "src/content/docs/guides,src/content/docs/reference",
+  "scanDirectories": "docs/guides,docs/reference",
   "ignoreUnderscoreFiles": false,
   "enableMDXSupport": true,
   "keywordProperty": "",

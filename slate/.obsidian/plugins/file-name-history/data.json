@@ -1,5 +1,5 @@
 {
-  "historyPropertyName": "aliases",
+  "historyPropertyName": "history",
   "ignoreRegexes": [
     "^_",
     "^Untitled$",

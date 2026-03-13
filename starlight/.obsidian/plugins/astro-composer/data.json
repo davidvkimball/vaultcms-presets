@@ -6,19 +6,19 @@
   "copyHeadingLinkFormat": "astro",
   "addTrailingSlashToLinks": true,
   "enableOpenTerminalCommand": true,
-  "terminalProjectRootPath": "",
+  "terminalProjectRootPath": "../../",
   "terminalApplicationName": "",
   "enableTerminalDebugLogging": false,
   "enableTerminalRibbonIcon": true,
   "enableOpenConfigFileCommand": true,
-  "configFilePath": "astro.config.mjs",
-  "enableConfigRibbonIcon": false,
+  "configFilePath": "../../astro.config.mjs",
+  "enableConfigRibbonIcon": true,
   "contentTypes": [
     {
-      "id": "content-type-1772863135041-ceqxmabov",
+      "id": "content-type-1773432715446-aa4ni0ahu",
       "name": "Guides",
-      "folder": "src/content/docs/guides",
-      "linkBasePath": "/guides/",
+      "folder": "docs/guides",
+      "linkBasePath": "/docs/guides/",
       "template": "---\ntitle: \"{{title}}\"\ndescription: \"\"\n---\n",
       "enabled": true,
       "creationMode": "file",
@@ -27,10 +27,10 @@
       "enableUnderscorePrefix": false
     },
     {
-      "id": "content-type-1772863140701-zrn004w5j",
+      "id": "content-type-1773432726664-0vqrjh6zp",
       "name": "Reference",
-      "folder": "src/content/docs/reference",
-      "linkBasePath": "/reference/",
+      "folder": "docs/reference",
+      "linkBasePath": "/docs/reference/",
       "template": "---\ntitle: \"{{title}}\"\ndescription: \"\"\n---\n",
       "enabled": true,
       "creationMode": "file",
@@ -51,6 +51,7 @@
   "draftProperty": "",
   "draftLogic": "true-is-draft",
   "publishDateField": "",
+  "renameOnTitleClick": false,
   "updateModifiedDate": false,
   "modifiedDateField": ""
 }
