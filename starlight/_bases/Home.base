@@ -1,3 +1,7 @@
+filters:
+  or:
+    - file.ext == "md"
+    - file.ext == "mdx"
 formulas:
   Slug: |-
     if(file.folder == "posts", "/posts/" + file.name.replace(".md", ""), 
@@ -20,12 +24,6 @@ formulas:
         "root"
       )
     )
-
-filters:
-  or:
-    - file.ext == "md"
-    - file.ext == "mdx"
-
 properties:
   file.fullname:
     displayName: Full File Name
@@ -43,52 +41,51 @@ properties:
     displayName: Date
   note.title:
     displayName: Title
-
 views:
   - type: cms
-    name: "Guides"
+    name: Guides
     filters:
       and:
         - file.folder.startsWith("docs/guides")
     sort:
       - property: file.ctime
         direction: DESC
-    imageFormat: "cover"
+    imageFormat: cover
     showDate: true
     customizeNewButton: true
-    newNoteLocation: "docs/guides"
-    fallbackToEmbeds: "if-empty"
+    newNoteLocation: docs/guides
+    fallbackToEmbeds: if-empty
     propertyDisplay1: file.fullname
     showTextPreview: true
-    propertyLabels: "above"
+    propertyLabels: above
     titleProperty: note.title
     dateProperty: file.ctime
     descriptionProperty: note.description
     showTags: false
     showDraftStatus: false
   - type: cms
-    name: "Reference"
+    name: Reference
     filters:
       and:
         - file.folder.startsWith("docs/reference")
     sort:
       - property: file.ctime
         direction: DESC
-    imageFormat: "cover"
+    imageFormat: cover
     showDate: true
     customizeNewButton: true
-    newNoteLocation: "docs/reference"
-    fallbackToEmbeds: "if-empty"
+    newNoteLocation: docs/reference
+    fallbackToEmbeds: if-empty
     propertyDisplay1: file.fullname
     showTextPreview: true
-    propertyLabels: "above"
+    propertyLabels: above
     titleProperty: note.title
     dateProperty: file.ctime
     descriptionProperty: note.description
     showTags: false
     showDraftStatus: false
   - type: cms
-    name: "Vault CMS Guide"
+    name: Vault CMS Guide
     filters:
       and:
         - file.folder == "/"
@@ -97,13 +94,13 @@ views:
     sort:
       - property: file.ctime
         direction: DESC
-    fallbackToEmbeds: "never"
+    fallbackToEmbeds: never
     propertyDisplay1: file.fullname
     showTextPreview: true
-    imageFormat: "none"
+    imageFormat: none
     showDate: false
     showDraftStatus: false
-    propertyLabels: "above"
+    propertyLabels: above
     titleProperty: note.title
     propertyLayout12SideBySide: false
     propertyLayout34SideBySide: false
