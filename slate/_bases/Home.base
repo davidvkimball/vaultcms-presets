@@ -65,7 +65,8 @@ views:
     showTags: true
     tagsProperty: note.tags
     showDraftStatus: true
-    draftStatusUseFilenamePrefix: true
+    draftStatusUseFilenamePrefix: false
+    draftStatusProperty: note.draft
   - type: cms
     name: Vault CMS Guide
     filters:

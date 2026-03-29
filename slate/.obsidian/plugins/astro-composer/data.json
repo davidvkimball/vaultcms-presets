@@ -19,12 +19,12 @@
       "name": "Posts",
       "folder": "post",
       "linkBasePath": "/blog/",
-      "template": "---\ntitle: \"{{title}}\"\ndescription: \"\"\ntags: []\npubDate: {{date}}\n---\n",
+      "template": "---\ntitle: \"{{title}}\"\ndescription: \"\"\ntags: []\npubDate: {{date}}\ndraft: true\n---\n",
       "enabled": true,
       "creationMode": "file",
       "indexFileName": "index",
       "ignoreSubfolders": false,
-      "enableUnderscorePrefix": true
+      "enableUnderscorePrefix": false
     }
   ],
   "migrationCompleted": true,
@@ -36,6 +36,7 @@
   "showMdxFilesInExplorer": false,
   "processBackgroundFileChanges": true,
   "syncDraftDate": false,
+  "draftDetectionMode": "property",
   "draftProperty": "",
   "draftLogic": "true-is-draft",
   "publishDateField": "",
