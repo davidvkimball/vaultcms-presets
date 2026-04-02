@@ -37,8 +37,8 @@
     "seo:seo-run-current",
     "editor:configure-toolbar"
   ],
-  "newFileLocation": "root",
-  "newFileFolderPath": "",
+  "newFileLocation": "folder",
+  "newFileFolderPath": "docs/guides",
   "newLinkFormat": "relative",
   "mobileQuickRibbonItem": "",
   "vimMode": false,

@@ -29,7 +29,7 @@
   "disableRenameNotice": false,
   "enableDescriptiveImages": true,
   "insertSize": "",
-  "insertReferral": true,
+  "insertReferral": false,
   "insertBackLink": false,
   "appendReferral": false,
   "banner": {
