@@ -6,7 +6,7 @@
   "rightTabHeaders": "show",
   "ribbonRevealOnHover": false,
   "vaultSwitcher": "reveal",
-  "helpButton": "hide",
+  "helpButton": "reveal",
   "settingsButton": "reveal",
   "tabBar": true,
   "tabBarHideWhenSingle": false,
@@ -173,6 +173,13 @@
       "id": "external-toggle-focus",
       "name": "Toggle focus",
       "ariaLabel": "Toggle focus",
+      "type": "external",
+      "hidden": false
+    },
+    {
+      "id": "external-show-search-filter",
+      "name": "Show search filter",
+      "ariaLabel": "Show search filter",
       "type": "external",
       "hidden": false
     }

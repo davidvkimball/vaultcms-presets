@@ -175,6 +175,13 @@
       "ariaLabel": "Toggle focus",
       "type": "external",
       "hidden": false
+    },
+    {
+      "id": "external-show-search-filter",
+      "name": "Show search filter",
+      "ariaLabel": "Show search filter",
+      "type": "external",
+      "hidden": false
     }
   ],
   "nativeExplorerButtonColors": {},

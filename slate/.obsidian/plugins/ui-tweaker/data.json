@@ -165,7 +165,7 @@
     {
       "id": "native-collapseAll",
       "name": "Collapse all",
-      "ariaLabel": "Expand all",
+      "ariaLabel": "Collapse all",
       "type": "native",
       "hidden": false
     },
@@ -173,6 +173,13 @@
       "id": "external-toggle-focus",
       "name": "Toggle focus",
       "ariaLabel": "Toggle focus",
+      "type": "external",
+      "hidden": false
+    },
+    {
+      "id": "external-show-search-filter",
+      "name": "Show search filter",
+      "ariaLabel": "Show search filter",
       "type": "external",
       "hidden": false
     }
