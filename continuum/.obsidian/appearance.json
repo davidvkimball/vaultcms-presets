@@ -1,0 +1,10 @@
+{
+  "cssTheme": "Oxygen",
+  "showViewHeader": true,
+  "showRibbon": false,
+  "enabledCssSnippets": [
+    "continuum-styling"
+  ],
+  "theme": "system",
+  "accentColor": ""
+}

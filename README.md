@@ -19,7 +19,7 @@ npm create vault-cms --template template-name
 yarn create vault-cms --template template-name
 ```
 
-*Note: Replace `template-name` with `starlight`, `slate`, or `chiri`.*
+*Note: Replace `template-name` with `starlight`, `slate`, `chiri`, or `continuum`.*
 
 ### Available Presets
 
@@ -28,6 +28,7 @@ yarn create vault-cms --template template-name
 | **starlight** | [Starlight](https://starlight.astro.build/) |
 | **slate** | [Slate](https://github.com/SlateDesign/slate-blog) |
 | **chiri** | [Chiri](https://github.com/the3ash/astro-chiri) |
+| **continuum** | [Continuum](https://github.com/davidvkimball/continuum) |
 
 ## About Vault CMS
 
