@@ -2,7 +2,6 @@
   "presets": {
     "starlight": { "installTarget": "src/content" },
     "slate": { "installTarget": "src/content" },
-    "chiri": { "installTarget": "src/content" },
-    "continuum": { "installTarget": "src/content" }
+    "chiri": { "installTarget": "src/content" }
   }
 }
